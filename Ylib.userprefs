@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Test/Test.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ylib/MyClass.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Ylib/MyClass.cs" Line="3" Column="17" />
+      <File FileName="Ylib/Util/IO.cs" Line="43" Column="14" />
+      <File FileName="Test/Program.cs" Line="38" Column="26" />
+      <File FileName="Ylib/Util/Util.cs" Line="28" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
