@@ -27,7 +27,13 @@ namespace Test
             A1.PrintV();
             Console.WriteLine("\n---IO---");
             A.PrintA();
+            //IO.ChangeMaxColumns(5);
+            //var mm = IO.MaxColumns;
+            //IO.MaxColumns = 6;
             A1.PrintA1C(Rows, Cols, Rows);
+            //IO.MaxColumns = 10;
+            //IO.DefaultMaxColumns();
+            A.PrintA();
                 
         }
 

@@ -1,11 +1,33 @@
 ﻿using System;
 using System.Security.Cryptography;
+using System.Runtime.Remoting.Messaging;
 
 namespace Ylib.Util
 {
 	public static class IO
 	{
-		const int MAX_COLUMNS = 10;
+		static int MAX_COLUMNS = 10;
+
+		public static int MaxColumns {
+			get {
+				return MAX_COLUMNS;
+			}
+			set {
+				MAX_COLUMNS = value;
+			}
+		}
+
+		public static void ChangeMaxColumns (int maxcols)
+		{
+			if (maxcols < 1)
+				MAX_COLUMNS = 1;
+			MAX_COLUMNS = maxcols;
+		}
+
+		public static void DefaultMaxColumns ()
+		{
+			MAX_COLUMNS = 10;
+		}
 
 		/// <summary>
 		/// Print out the 2-D matrix on the screen.

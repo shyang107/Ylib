@@ -1,0 +1,7 @@
+/Users/shyang/Dropbox/workspace/Ylib/Test/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/shyang/Dropbox/workspace/Ylib/Test/bin/Debug/Test.exe.mdb
+/Users/shyang/Dropbox/workspace/Ylib/Test/bin/Debug/Test.exe
+/Users/shyang/Dropbox/workspace/Ylib/Test/obj/Debug/Test.exe
+/Users/shyang/Dropbox/workspace/Ylib/Test/obj/Debug/Test.exe.mdb
+/Users/shyang/Dropbox/workspace/Ylib/Test/bin/Debug/Ylib.dll
+/Users/shyang/Dropbox/workspace/Ylib/Test/bin/Debug/Ylib.dll.mdb
